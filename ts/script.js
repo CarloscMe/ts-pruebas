@@ -6,6 +6,7 @@ const grande = document.querySelector("#grande");
 const entrada = document.querySelector("#entrada");
 const texto2 = document.querySelector(".texto--2");
 const button = document.querySelector("button");
+const select = document.querySelector("select");
 pequeño === null || pequeño === void 0 ? void 0 : pequeño.addEventListener("click", () => {
     texto.style.fontSize = ".9rem"; /* reto: dependiendo de la opcion al recargar la pagina se quede esa opcion*/
 });
@@ -22,8 +23,13 @@ function validar() {
         entrada.value = '';
     }
     else {
-        alert("escribe algo");
+        alert("escribe algo por favor");
     }
     ;
 }
 ;
+select.addEventListener("change", cambios);
+function cambios() {
+    const body = document.body;
+    body.style.background = select.value;
+}
