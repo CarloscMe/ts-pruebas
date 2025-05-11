@@ -10,7 +10,7 @@ const button = document.querySelector("button") as HTMLButtonElement;
 const select = document.querySelector("select") as HTMLSelectElement;
 
 pequeño?.addEventListener("click", () =>{
-    texto.style.fontSize = ".9rem"                     /* reto: dependiendo de la opcion al recargar la pagina se quede esa opcion*/
+    texto.style.fontSize = ".9rem"
 });
 
 mediano?.addEventListener("click", () =>{

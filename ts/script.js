@@ -8,7 +8,7 @@ const texto2 = document.querySelector(".texto--2");
 const button = document.querySelector("button");
 const select = document.querySelector("select");
 pequeño === null || pequeño === void 0 ? void 0 : pequeño.addEventListener("click", () => {
-    texto.style.fontSize = ".9rem"; /* reto: dependiendo de la opcion al recargar la pagina se quede esa opcion*/
+    texto.style.fontSize = ".9rem";
 });
 mediano === null || mediano === void 0 ? void 0 : mediano.addEventListener("click", () => {
     texto.style.fontSize = "2rem";
